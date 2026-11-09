@@ -1,0 +1,28 @@
+# Backup e dati personali
+cosaindosso-backup*.json
+*.backup.json
+
+# Firma Android: MAI nel repository
+*.jks
+*.keystore
+keystore.properties
+local.properties
+google-services.json
+
+# Segreti
+.env
+.env.*
+
+# Build e dipendenze
+node_modules/
+android/app/build/
+android/build/
+android/.gradle/
+*.apk
+*.aab
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
